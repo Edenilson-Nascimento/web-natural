@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --wite-gloss:rgba(255,255,255,0.4)
+}  
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url(../ima/thumb-1920-338596.jpg);
+    background-size: cover;
+}
+.minha{
+    width: 800px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    border: 10px solid var(--wite-gloss);
+    backdrop-filter: blur(8px);
+}
+.home h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color:var(--wite-gloss);
+}
+.home h1:hover{
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(5, 44, 5);
+}
+.home p{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 5px;
+}
+.menu{
+    width: 800px;
+    height: 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 70px;
+}
+.menu li{
+    display: inline;
+    padding: 50px;
+
+}
+.menu li a:hover{
+    color: var(--wite-gloss);
+    font-size: 20px;
+}
+.menu a{
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    font-family:Anton;
+}
+
+/*estilização serviços*/
+body{
+    background-image: url(../ima/wallpaper-close.jpg);
+    background-size: cover;
+    
+}
+
+.container2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.h1-servic{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color:rgb(232, 242, 232);
+    margin-bottom: 50px;
+}
+.video{
+    border: 10px solid var(--wite-gloss);
+    margin-bottom: 20px;
+}
+
+.flex-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.flex-container > div{
+    display: flex;
+    width: 410px;
+    height: 510px;
+    background-color:var(--wite-gloss);
+    
+    padding: 20px;
+}
+
+.d-serv1 img{
+    width:370px;
+    height:470px;
+}
+/*estilização contato*/
+hr{
+    width: 100vw;
+    margin:  10px;
+}
+.container-contato{
+    text-align: center;
+    color: rgba(247, 250, 246, 0.982);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+button{
+    font-size: 20px;
+    margin: 5px;
+}
+.maps{
+    margin: 30px;
+}
+#formulario{
+    margin-top: 10px;
+}
+
+.container-rodape{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+}
+
+.tm-social{
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+}
+
+.autor{
+text-align: center;
+color: antiquewhite;
+}
